@@ -1,0 +1,246 @@
+name: merkez_fotograf_video_ve_ses
+description: "Fotoğraf, Video ve Ses merkez uygulaması: 42 araç. Android, iOS ve Web."
+publish_to: none
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.7.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # Ortak çekirdek: https://github.com/taktemurr-ops/studio-core
+  studio_core:
+    git:
+      url: https://github.com/taktemurr-ops/studio-core
+      ref: 92b51dd7d47c300d3611c448b5474fca5f793f2a
+  # Araçların ortak motoru (aynı zamanda yerel eklenti: Media3 / AVFoundation / ONNX Runtime)
+  medya_motoru:
+    git:
+      url: https://github.com/taktemurr-ops/medya-motoru
+      ref: 87cd5923e9b52fc8e5d5c8f82ae5daa6a1d5c89e
+  # Merkezdeki araçlar (her biri kendi deposunda)
+  uyg_fotograf_duzenleyici:
+    git:
+      url: https://github.com/taktemurr-ops/uyg-fotograf-duzenleyici
+      ref: 50ff240ed0349d0c3e417b83e6ec49f2b30169dd
+  uyg_kolaj:
+    git:
+      url: https://github.com/taktemurr-ops/uyg-kolaj
+      ref: 62a6529a41988b34929ecb08540b50282b630072
+  uyg_kirp_ve_boyutlandir:
+    git:
+      url: https://github.com/taktemurr-ops/uyg-kirp-ve-boyutlandir
+      ref: a0a5ec9402976ecd767922ef8eb81629069f0148
+  uyg_arka_plan_silme:
+    git:
+      url: https://github.com/taktemurr-ops/uyg-arka-plan-silme
+      ref: 7b6d777a93fd58c818bf01eb623835d1cd441c97
+  uyg_fotograf_sikistirma:
+    git:
+      url: https://github.com/taktemurr-ops/uyg-fotograf-sikistirma
+      ref: 0a0dcfc3c8c085858f7b53c1ad0ed7a51114df0f
+  uyg_video_kirp_ve_birlestir:
+    git:
+      url: https://github.com/taktemurr-ops/uyg-video-kirp-ve-birlestir
+      ref: 996324992905f41478b76548a857add254c48d84
+  uyg_gif_yapici:
+    git:
+      url: https://github.com/taktemurr-ops/uyg-gif-yapici
+      ref: e640c5510d712f1aee2483dff7272019d399dbb7
+  uyg_filigran_ekleme:
+    git:
+      url: https://github.com/taktemurr-ops/uyg-filigran-ekleme
+      ref: 979a2ac4474a3d54075429e86050f23098e79c36
+  uyg_meme_yapici:
+    git:
+      url: https://github.com/taktemurr-ops/uyg-meme-yapici
+      ref: 77d65ce1871d05a6882ee768c4d478f483acb364
+  uyg_gorselden_pdf:
+    git:
+      url: https://github.com/taktemurr-ops/uyg-gorselden-pdf
+      ref: a65b72b31dbfd08a56178cd8569d29e4cc7a1b78
+  uyg_muzik_calar:
+    git:
+      url: https://github.com/taktemurr-ops/uyg-muzik-calar
+      ref: 0581e33e18832d89de24662cd10d3c487a6098df
+  uyg_zil_sesi_yapici:
+    git:
+      url: https://github.com/taktemurr-ops/uyg-zil-sesi-yapici
+      ref: ff4245262e0a238887f14751114db4c8408fea7d
+  uyg_ses_duzenleyici:
+    git:
+      url: https://github.com/taktemurr-ops/uyg-ses-duzenleyici
+      ref: 8e51038d7ed7ff13fd66f8d0b3f17953f5cdeb17
+  uyg_beyaz_gurultu_ve_uyku_sesleri:
+    git:
+      url: https://github.com/taktemurr-ops/uyg-beyaz-gurultu-ve-uyku-sesleri
+      ref: b2297f69600fe7c0c459e49027b0d7f081c7f31b
+  uyg_davul_pedi:
+    git:
+      url: https://github.com/taktemurr-ops/uyg-davul-pedi
+      ref: 13d14385ab244d8f4a8e12353b5799f24f064092
+  uyg_piyano:
+    git:
+      url: https://github.com/taktemurr-ops/uyg-piyano
+      ref: 22995e66111d8d55aa6f362ba0cbdb56e14fd1bf
+  uyg_ses_degistirici:
+    git:
+      url: https://github.com/taktemurr-ops/uyg-ses-degistirici
+      ref: c3ae5cae1a4f7d3831b60827f2388f0422c18ed6
+  uyg_duvar_kagidi_uretici:
+    git:
+      url: https://github.com/taktemurr-ops/uyg-duvar-kagidi-uretici
+      ref: 19e97300ba4fdb82f14650aa1c022138c09efd5e
+  uyg_filtreli_kamera:
+    git:
+      url: https://github.com/taktemurr-ops/uyg-filtreli-kamera
+      ref: fba630747f0c1df07213b575d8434028d8c00b36
+  uyg_slayt_gosterisi_video:
+    git:
+      url: https://github.com/taktemurr-ops/uyg-slayt-gosterisi-video
+      ref: 195cb41bf06c54263a4f054c8444bffc2dd0a790
+  uyg_video_sikistirma:
+    git:
+      url: https://github.com/taktemurr-ops/uyg-video-sikistirma
+      ref: 1395290316e818fe6f2e8423969657c91b810e99
+  uyg_video_hiz:
+    git:
+      url: https://github.com/taktemurr-ops/uyg-video-hiz
+      ref: 90f00244d2528f1e621149577b677650026fd7db
+  uyg_videodan_ses_cikarma:
+    git:
+      url: https://github.com/taktemurr-ops/uyg-videodan-ses-cikarma
+      ref: f9015183e30880403c1f6f4aa77609e670b3e628
+  uyg_otomatik_altyazi:
+    git:
+      url: https://github.com/taktemurr-ops/uyg-otomatik-altyazi
+      ref: f669e69bc60d9c84c1e00c06b862750a032cbfff
+  uyg_fotograf_renklendirme:
+    git:
+      url: https://github.com/taktemurr-ops/uyg-fotograf-renklendirme
+      ref: ba23867d5644820daa3a39c665cf7f229c98a314
+  uyg_fotograf_iyilestirme:
+    git:
+      url: https://github.com/taktemurr-ops/uyg-fotograf-iyilestirme
+      ref: 12ba2a6e9a1e4cd3d2c279945b2928b55bac5c8d
+  uyg_yuz_ve_plaka_bulaniklastirma:
+    git:
+      url: https://github.com/taktemurr-ops/uyg-yuz-ve-plaka-bulaniklastirma
+      ref: c8a47cf029075168246c766f8ab16d3e04a994b8
+  uyg_fotograf_bilgisi_silici:
+    git:
+      url: https://github.com/taktemurr-ops/uyg-fotograf-bilgisi-silici
+      ref: 1916661cd379a51afc85cfbe5ed99cd801cbfa48
+  uyg_kopya_fotograf_bulucu:
+    git:
+      url: https://github.com/taktemurr-ops/uyg-kopya-fotograf-bulucu
+      ref: 8d5fb87d7d12423785c20e256712ad40da1f257c
+  uyg_zaman_atlamali_video:
+    git:
+      url: https://github.com/taktemurr-ops/uyg-zaman-atlamali-video
+      ref: 2b8d5f329f83a90b6d29e9c80899585d34dcc364
+  uyg_ekran_goruntusu_duzenleyici:
+    git:
+      url: https://github.com/taktemurr-ops/uyg-ekran-goruntusu-duzenleyici
+      ref: d1d9e621cce50b85a9ba2cb5e8d55ceedf9e3fb4
+  uyg_piksel_sanati_editoru:
+    git:
+      url: https://github.com/taktemurr-ops/uyg-piksel-sanati-editoru
+      ref: 1e7d135acbb4e79f78cee47593482ac1cb12b1fb
+  uyg_dijital_resim_ve_boyama:
+    git:
+      url: https://github.com/taktemurr-ops/uyg-dijital-resim-ve-boyama
+      ref: b7dcc4c44988ba5e9657c9790efea7f097bd476a
+  uyg_logo_tasarimi:
+    git:
+      url: https://github.com/taktemurr-ops/uyg-logo-tasarimi
+      ref: d11957ce7366a5726f09156e5039e19a5d206d6a
+  uyg_davetiye_ve_kart_tasarimi:
+    git:
+      url: https://github.com/taktemurr-ops/uyg-davetiye-ve-kart-tasarimi
+      ref: 2a9a3eb9726d97c2372ed3a71b76d2ceb8e48c38
+  uyg_afis_ve_sosyal_medya_tasarimi:
+    git:
+      url: https://github.com/taktemurr-ops/uyg-afis-ve-sosyal-medya-tasarimi
+      ref: b2c6f07683c5cf129f214bf6029082b6c4a4d5d6
+  uyg_podcast_kaydi:
+    git:
+      url: https://github.com/taktemurr-ops/uyg-podcast-kaydi
+      ref: d32e9cc9aadf471163e953504bec96a36cd3b363
+  uyg_ses_yukseltici:
+    git:
+      url: https://github.com/taktemurr-ops/uyg-ses-yukseltici
+      ref: 5cbbd7902e87ba978e926cc89f8592eb070751b2
+  uyg_gurultu_azaltma:
+    git:
+      url: https://github.com/taktemurr-ops/uyg-gurultu-azaltma
+      ref: e5a887d368bb2989fc02493c7f38a739acb197a6
+  uyg_ses_formati_donusturucu:
+    git:
+      url: https://github.com/taktemurr-ops/uyg-ses-formati-donusturucu
+      ref: 150875cc6b4819e5e19139019a2aebfe277a8c40
+  uyg_dongu_ve_ritim_yapici:
+    git:
+      url: https://github.com/taktemurr-ops/uyg-dongu-ve-ritim-yapici
+      ref: 09a9308828d8e26e3fb0114a4a67e1547037c873
+  uyg_sentezleyici:
+    git:
+      url: https://github.com/taktemurr-ops/uyg-sentezleyici
+      ref: 040a6b132b17f0f8fa5c49412b53c3e511fdf91a
+  flutter_localizations:
+    sdk: flutter
+  flutter_riverpod: ^2.6.1
+  shared_preferences: ^2.3.2
+  audioplayers: ^6.5.0
+  google_mobile_ads: ^9.2.0
+  in_app_purchase: ^3.2.0
+
+dependency_overrides:
+  # Bütün araçlar aynı çekirdek ve motor sürümünü kullansın.
+  studio_core:
+    git:
+      url: https://github.com/taktemurr-ops/studio-core
+      ref: 92b51dd7d47c300d3611c448b5474fca5f793f2a
+  medya_motoru:
+    git:
+      url: https://github.com/taktemurr-ops/medya-motoru
+      ref: 87cd5923e9b52fc8e5d5c8f82ae5daa6a1d5c89e
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  integration_test:
+    sdk: flutter
+  flutter_driver:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.14.1
+  flutter_native_splash: ^2.4.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/config/
+    - assets/branding/
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  remove_alpha_ios: true
+  image_path: assets/branding/icon.png
+  adaptive_icon_background: "#26143A"
+  adaptive_icon_foreground: assets/branding/icon_foreground.png
+  web:
+    generate: true
+    image_path: assets/branding/icon.png
+    background_color: "#26143A"
+    theme_color: "#26143A"
+
+flutter_native_splash:
+  color: "#26143A"
+  image: assets/branding/splash.png
+  android_12:
+    color: "#26143A"
+    image: assets/branding/splash_android12.png
+  web: true

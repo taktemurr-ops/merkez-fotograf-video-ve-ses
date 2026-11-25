@@ -1,0 +1,8 @@
+42 eszköz, többségük offline, a készüléken.
+
+• Fotó: Fotószerkesztő, Kollázs, Vágás és átméretezés, Fotótömörítő, Vízjel, Képekből PDF, Szűrős kamera, Fotó-metaadatok törlése, Duplikált fotók keresése, Képernyőkép-szerkesztő
+• Okos eszközök: Háttér eltávolítása, Automatikus felirat, Fotó színezése, Fotójavító, Arc és rendszám elmosása
+• Videó: Videó vágás és összefűzés, GIF-készítő, Diavetítés videó, Videótömörítő, Videósebesség, Hang kinyerése videóból, Időzített videó
+• Hang: Zenelejátszó, Csengőhang-készítő, Hangszerkesztő, Fehér zaj és altató hangok, Hangtorzító, Podcaströgzítő, Hangerőnövelő, Zajcsökkentő, Hangátalakító
+• Zenélj: Dobpad, Zongora, Loop- és ütemkészítő, Szintetizátor
+• Tervezés és rajz: Mémkészítő, Háttérkép-készítő, Pixelgrafika-szerkesztő, Digitális rajz és festés, Logótervező, Meghívók és üdvözlőlapok, Plakát és közösségi poszt
