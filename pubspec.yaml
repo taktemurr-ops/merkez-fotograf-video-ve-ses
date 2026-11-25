@@ -18,7 +18,7 @@ dependencies:
   medya_motoru:
     git:
       url: https://github.com/taktemurr-ops/medya-motoru
-      ref: 1e99976a58f2bf0333f470153891bb8f9af485a3
+      ref: 6ce97ce03041161fd4bab1e56568420f6bd5772d
   # Merkezdeki araçlar (her biri kendi deposunda)
   uyg_fotograf_duzenleyici:
     git:
@@ -155,39 +155,39 @@ dependencies:
   uyg_logo_tasarimi:
     git:
       url: https://github.com/taktemurr-ops/uyg-logo-tasarimi
-      ref: 840fc3c1f95433c05c4082b3084620de37d47958
+      ref: 4a1a979ad3042b09228d5d6c8f71a73771743cc6
   uyg_davetiye_ve_kart_tasarimi:
     git:
       url: https://github.com/taktemurr-ops/uyg-davetiye-ve-kart-tasarimi
-      ref: cce01bccd2c6249af15d685778abbd0ad08b650d
+      ref: 6524faa21cde60f71ea2b4b732d2f8c7383119ef
   uyg_afis_ve_sosyal_medya_tasarimi:
     git:
       url: https://github.com/taktemurr-ops/uyg-afis-ve-sosyal-medya-tasarimi
-      ref: 0a826281b49072379ad3fa8d702632971b585af6
+      ref: 1609906830bb005bc3987bb12e40312ce77e935c
   uyg_podcast_kaydi:
     git:
       url: https://github.com/taktemurr-ops/uyg-podcast-kaydi
-      ref: 01c7d1bda2ef822ce7083eab04ad384c430dc3b2
+      ref: 62aa59b545ad5d4113f2bff504fec0ef2d31d69a
   uyg_ses_yukseltici:
     git:
       url: https://github.com/taktemurr-ops/uyg-ses-yukseltici
-      ref: ede7fc4f42ffa1f890ba0168d6b876cce0ecc68e
+      ref: b3499e7f6e7e8e2326b5e76086bd9545a446f097
   uyg_gurultu_azaltma:
     git:
       url: https://github.com/taktemurr-ops/uyg-gurultu-azaltma
-      ref: 6f0cb4022c5246083467d2303cb576721e920742
+      ref: 77237c875ab3bbc3a80846ac1d7aee203497c1b1
   uyg_ses_formati_donusturucu:
     git:
       url: https://github.com/taktemurr-ops/uyg-ses-formati-donusturucu
-      ref: 52a52f22148e0fed13e88a183447bc41e61fbc0b
+      ref: 2e4ec3ac870070b5a0cd59a84cfe339e196f3113
   uyg_dongu_ve_ritim_yapici:
     git:
       url: https://github.com/taktemurr-ops/uyg-dongu-ve-ritim-yapici
-      ref: fda49d3619bfbaa2170ccfe8097cf0e746e43803
+      ref: 419bf26755fe91e6bf3ba2caa252ba5de626b3a1
   uyg_sentezleyici:
     git:
       url: https://github.com/taktemurr-ops/uyg-sentezleyici
-      ref: 878fc5fb0915e198e66fbc2de8c8ab82ca77ed2b
+      ref: 1a59c4ef9f2c1c42f9cdcbe01d51151def46ebe1
   flutter_localizations:
     sdk: flutter
   flutter_riverpod: ^2.6.1
@@ -205,7 +205,7 @@ dependency_overrides:
   medya_motoru:
     git:
       url: https://github.com/taktemurr-ops/medya-motoru
-      ref: 1e99976a58f2bf0333f470153891bb8f9af485a3
+      ref: 6ce97ce03041161fd4bab1e56568420f6bd5772d
 
 dev_dependencies:
   flutter_test:

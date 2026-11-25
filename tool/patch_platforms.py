@@ -150,10 +150,18 @@ def android():
 -keep class androidx.work.impl.WorkDatabase_Impl { *; }
 -keep class androidx.work.impl.** extends androidx.room.RoomDatabase { *; }
 -dontwarn androidx.work.**
+# google_mlkit_text_recognition: optional Chinese/Devanagari/Japanese/Korean
+# recognizers are not bundled; R8 must not fail on their missing classes.
+-dontwarn com.google.mlkit.vision.text.chinese.**
+-dontwarn com.google.mlkit.vision.text.devanagari.**
+-dontwarn com.google.mlkit.vision.text.japanese.**
+-dontwarn com.google.mlkit.vision.text.korean.**
 """
     old = read(rules) if os.path.exists(rules) else ""
     if "WorkDatabase_Impl" not in old:
         write(rules, old + keep)
+    elif "mlkit.vision.text.chinese" not in old:
+        write(rules, old + keep[keep.index("# google_mlkit"):])
     for gradle in ["android/app/build.gradle.kts", "android/app/build.gradle"]:
         if not os.path.exists(gradle):
             continue
@@ -249,6 +257,17 @@ def ios():
             s = s[:idx] + extra + s[idx:]
         write(plist, s)
     podfile = "ios/Podfile"
+    # `flutter create` does not write a Podfile; Flutter would generate one at
+    # build time with its default (too low) iOS target. Google ML Kit pods need
+    # a higher iOS, so create it from the SDK template now and raise the platform.
+    if not os.path.exists(podfile) and os.path.isdir("ios"):
+        import shutil
+        fl = shutil.which("flutter")
+        if fl:
+            root = os.path.dirname(os.path.dirname(os.path.realpath(fl)))
+            tpl = os.path.join(root, "packages", "flutter_tools", "templates", "cocoapods", "Podfile-ios")
+            if os.path.exists(tpl):
+                shutil.copy(tpl, podfile)
     if os.path.exists(podfile):
         s = read(podfile)
         s = re.sub(r"#?\s*platform :ios, '[0-9.]+'", "platform :ios, '15.6'", s, count=1)
