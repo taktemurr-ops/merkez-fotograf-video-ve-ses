@@ -1,8 +1,8 @@
-42 værktøjer, de fleste offline på enheden.
+45 værktøjer, de fleste offline på enheden.
 
-• Foto: Fotoredigering, Collage, Beskær og skalér, Komprimér fotos, Vandmærke, Billeder til PDF, Filterkamera, Fjern fotometadata, Find dubletfotos, Skærmbilledredigering
+• Foto: Fotoredigering, Collage, Beskær og skalér, Komprimér fotos, Vandmærke, Billeder til PDF, Filterkamera, Fjern fotometadata, Find dubletfotos, Skærmbilledredigering, Skjult album
 • Smarte værktøjer: Fjern baggrund, Automatiske undertekster, Farvelæg fotos, Forbedr fotos, Slør ansigter og nummerplader
-• Video: Klip og flet video, GIF-skaber, Diasshow-video, Komprimér video, Videohastighed, Udtræk lyd fra video, Timelapse-video
+• Video: Klip og flet video, GIF-skaber, Diasshow-video, Komprimér video, Videohastighed, Udtræk lyd fra video, Timelapse-video, Videoafspiller, Skærmoptager
 • Lyd: Musikafspiller, Ringetoneskaber, Lydredigering, Hvid støj og søvnlyde, Stemmeforvrænger, Podcastoptager, Lydforstærker, Støjreduktion, Lydkonverter
 • Lav musik: Trommepad, Klaver, Loop- og beatskaber, Synthesizer
 • Design og tegning: Meme-skaber, Baggrundsskaber, Pixelkunst-editor, Digital tegning og maling, Logodesigner, Invitationer og kort, Plakater og sociale opslag

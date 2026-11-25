@@ -1,7 +1,7 @@
 # Fotoğraf, Video ve Ses · Photo, Video & Audio (merkez-fotograf-video-ve-ses)
 
-Fotoğraf, Video ve Ses ailesinin **merkez uygulaması**: 42 aracı tek uygulamada toplar.
-Görünüm oyun merkezlerinin onaylı tasarım dilini izler (koyu degrade zemin, "42 Uygulama",
+Fotoğraf, Video ve Ses ailesinin **merkez uygulaması**: 45 aracı tek uygulamada toplar.
+Görünüm oyun merkezlerinin onaylı tasarım dilini izler (koyu degrade zemin, "45 Uygulama",
 yuvarlak arama, vurgu çerçeveli kutular; mor-mercan stüdyo tonu). Alt gezinme: Ana Sayfa ·
 Uygulamalar · Favoriler · Profil.
 
@@ -57,3 +57,6 @@ Uygulamalar · Favoriler · Profil.
 | Ses Formatı Dönüştürücü | [uyg-ses-formati-donusturucu](https://github.com/taktemurr-ops/uyg-ses-formati-donusturucu) |
 | Döngü ve Ritim Yapıcı | [uyg-dongu-ve-ritim-yapici](https://github.com/taktemurr-ops/uyg-dongu-ve-ritim-yapici) |
 | Sentezleyici | [uyg-sentezleyici](https://github.com/taktemurr-ops/uyg-sentezleyici) |
+| Video Oynatıcı | [uyg-video-oynatici](https://github.com/taktemurr-ops/uyg-video-oynatici) |
+| Gizli Albüm | [uyg-gizli-album](https://github.com/taktemurr-ops/uyg-gizli-album) |
+| Ekran Kaydedici | [uyg-ekran-kaydedici](https://github.com/taktemurr-ops/uyg-ekran-kaydedici) |

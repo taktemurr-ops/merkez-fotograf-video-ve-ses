@@ -1,8 +1,8 @@
-42 narzędzia, większość offline na urządzeniu.
+45 narzędzia, większość offline na urządzeniu.
 
-• Zdjęcia: Edytor zdjęć, Kolaż, Przytnij i zmień rozmiar, Kompresja zdjęć, Znak wodny, Obrazy do PDF, Aparat z filtrami, Usuwanie metadanych zdjęć, Wyszukiwarka duplikatów zdjęć, Edytor zrzutów ekranu
+• Zdjęcia: Edytor zdjęć, Kolaż, Przytnij i zmień rozmiar, Kompresja zdjęć, Znak wodny, Obrazy do PDF, Aparat z filtrami, Usuwanie metadanych zdjęć, Wyszukiwarka duplikatów zdjęć, Edytor zrzutów ekranu, Ukryty album
 • Inteligentne narzędzia: Usuwanie tła, Automatyczne napisy, Koloryzacja zdjęć, Poprawa zdjęć, Rozmycie twarzy i tablic
-• Wideo: Przytnij i połącz wideo, Kreator GIF, Wideo z pokazu slajdów, Kompresja wideo, Prędkość wideo, Wyodrębnij dźwięk z wideo, Wideo poklatkowe
+• Wideo: Przytnij i połącz wideo, Kreator GIF, Wideo z pokazu slajdów, Kompresja wideo, Prędkość wideo, Wyodrębnij dźwięk z wideo, Wideo poklatkowe, Odtwarzacz wideo, Nagrywarka ekranu
 • Audio: Odtwarzacz muzyki, Kreator dzwonków, Edytor audio, Biały szum i dźwięki do snu, Zmieniacz głosu, Nagrywanie podcastów, Wzmacniacz głośności, Redukcja szumów, Konwerter audio
 • Twórz muzykę: Pad perkusyjny, Pianino, Kreator pętli i bitów, Syntezator
 • Projekt i rysunek: Kreator memów, Kreator tapet, Edytor pixel artu, Cyfrowe rysowanie i malowanie, Projektant logo, Zaproszenia i kartki, Plakaty i posty społecznościowe

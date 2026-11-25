@@ -1,8 +1,8 @@
-42 alat; sebagian besar offline di perangkat.
+45 alat; sebagian besar offline di perangkat.
 
-• Foto: Editor Foto, Kolase, Potong & Ubah Ukuran, Kompres Foto, Tanda Air, Gambar ke PDF, Kamera Filter, Hapus Metadata Foto, Pencari Foto Duplikat, Editor Tangkapan Layar
+• Foto: Editor Foto, Kolase, Potong & Ubah Ukuran, Kompres Foto, Tanda Air, Gambar ke PDF, Kamera Filter, Hapus Metadata Foto, Pencari Foto Duplikat, Editor Tangkapan Layar, Album Tersembunyi
 • Alat Pintar: Hapus Latar, Subtitel Otomatis, Warnai Foto, Penjernih Foto, Blur Wajah & Plat
-• Video: Potong & Gabung Video, Pembuat GIF, Video Tayangan Slide, Kompres Video, Kecepatan Video, Ekstrak Audio dari Video, Video Time-lapse
+• Video: Potong & Gabung Video, Pembuat GIF, Video Tayangan Slide, Kompres Video, Kecepatan Video, Ekstrak Audio dari Video, Video Time-lapse, Pemutar Video, Perekam Layar
 • Audio: Pemutar Musik, Pembuat Nada Dering, Editor Audio, Derau Putih & Suara Tidur, Pengubah Suara, Perekam Podcast, Penguat Volume, Pengurang Derau, Konverter Audio
 • Buat Musik: Pad Drum, Piano, Pembuat Loop & Beat, Synthesizer
 • Desain & Gambar: Pembuat Meme, Pembuat Wallpaper, Editor Seni Piksel, Gambar & Lukis Digital, Desain Logo, Pembuat Undangan & Kartu, Pembuat Poster & Postingan

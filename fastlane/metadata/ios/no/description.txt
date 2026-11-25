@@ -1,8 +1,8 @@
-42 verktøy, de fleste uten nett på enheten.
+45 verktøy, de fleste uten nett på enheten.
 
-• Foto: Bilderedigering, Collage, Beskjær og endre størrelse, Komprimer bilder, Vannmerke, Bilder til PDF, Filterkamera, Fjern bildemetadata, Finn duplikatbilder, Skjermbilderedigering
+• Foto: Bilderedigering, Collage, Beskjær og endre størrelse, Komprimer bilder, Vannmerke, Bilder til PDF, Filterkamera, Fjern bildemetadata, Finn duplikatbilder, Skjermbilderedigering, Skjult album
 • Smarte verktøy: Fjern bakgrunn, Automatisk teksting, Fargelegg bilder, Forbedre bilder, Slør ansikter og skilt
-• Video: Klipp og slå sammen video, GIF-lager, Lysbildevideo, Komprimer video, Videohastighet, Hent lyd fra video, Timelapse-video
+• Video: Klipp og slå sammen video, GIF-lager, Lysbildevideo, Komprimer video, Videohastighet, Hent lyd fra video, Timelapse-video, Videospiller, Skjermopptaker
 • Lyd: Musikkspiller, Ringetonelager, Lydredigering, Hvit støy og søvnlyder, Stemmeendrer, Podkastopptaker, Volumforsterker, Støyreduksjon, Lydkonverterer
 • Lag musikk: Trommepad, Piano, Loop- og beatlager, Synthesizer
 • Design og tegning: Meme-lager, Bakgrunnslager, Pikselkunst-editor, Digital tegning og maling, Logodesigner, Invitasjoner og kort, Plakater og innlegg

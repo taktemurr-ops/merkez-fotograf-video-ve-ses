@@ -43,8 +43,11 @@ import 'package:uyg_videodan_ses_cikarma/uyg_videodan_ses_cikarma.dart';
 import 'package:uyg_yuz_ve_plaka_bulaniklastirma/uyg_yuz_ve_plaka_bulaniklastirma.dart';
 import 'package:uyg_zaman_atlamali_video/uyg_zaman_atlamali_video.dart';
 import 'package:uyg_zil_sesi_yapici/uyg_zil_sesi_yapici.dart';
+import 'package:uyg_video_oynatici/uyg_video_oynatici.dart';
+import 'package:uyg_gizli_album/uyg_gizli_album.dart';
+import 'package:uyg_ekran_kaydedici/uyg_ekran_kaydedici.dart';
 
-/// Fotoğraf, Video ve Ses: 42 araç tek uygulamada. Çoğu internetsiz ve
+/// Fotoğraf, Video ve Ses: 45 araç tek uygulamada. Çoğu internetsiz ve
 /// cihazda çalışır; her aracın verisi ayrı saklanır; reklam yalnızca bir
 /// araçtan çıkarken ve en az 3 dakika arayla gösterilir.
 final hubConfig = AppHubConfig(
@@ -97,6 +100,9 @@ final hubConfig = AppHubConfig(
     sesFormatiDonusturucuTool,
     donguVeRitimYapiciTool,
     sentezleyiciTool,
+    videoOynaticiTool,
+    gizliAlbumTool,
+    ekranKaydediciTool,
   ],
   featured: medyaFeatured,
   privacyUrl: 'https://github.com/taktemurr-ops/merkez-fotograf-video-ve-ses/blob/main/PRIVACY.md',

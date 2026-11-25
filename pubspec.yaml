@@ -1,5 +1,5 @@
 name: merkez_fotograf_video_ve_ses
-description: "Fotoğraf, Video ve Ses merkez uygulaması: 42 araç. Android, iOS ve Web."
+description: "Fotoğraf, Video ve Ses merkez uygulaması: 45 araç. Android, iOS ve Web."
 publish_to: none
 version: 1.0.0+1
 
@@ -188,6 +188,18 @@ dependencies:
     git:
       url: https://github.com/taktemurr-ops/uyg-sentezleyici
       ref: 1a59c4ef9f2c1c42f9cdcbe01d51151def46ebe1
+  uyg_video_oynatici:
+    git:
+      url: https://github.com/taktemurr-ops/uyg-video-oynatici
+      ref: main
+  uyg_gizli_album:
+    git:
+      url: https://github.com/taktemurr-ops/uyg-gizli-album
+      ref: main
+  uyg_ekran_kaydedici:
+    git:
+      url: https://github.com/taktemurr-ops/uyg-ekran-kaydedici
+      ref: main
   flutter_localizations:
     sdk: flutter
   flutter_riverpod: ^2.6.1

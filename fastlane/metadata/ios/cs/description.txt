@@ -1,8 +1,8 @@
-42 nástrojů, většina offline v zařízení.
+45 nástrojů, většina offline v zařízení.
 
-• Fotky: Editor fotek, Koláž, Oříznout a změnit velikost, Komprese fotek, Vodoznak, Obrázky do PDF, Fotoaparát s filtry, Odstranění metadat fotek, Hledání duplicitních fotek, Editor snímků obrazovky
+• Fotky: Editor fotek, Koláž, Oříznout a změnit velikost, Komprese fotek, Vodoznak, Obrázky do PDF, Fotoaparát s filtry, Odstranění metadat fotek, Hledání duplicitních fotek, Editor snímků obrazovky, Skryté album
 • Chytré nástroje: Odstranění pozadí, Automatické titulky, Kolorování fotek, Vylepšení fotek, Rozmazání tváří a SPZ
-• Video: Střih a spojení videa, Tvorba GIF, Video prezentace, Komprese videa, Rychlost videa, Extrakce zvuku z videa, Časosběrné video
+• Video: Střih a spojení videa, Tvorba GIF, Video prezentace, Komprese videa, Rychlost videa, Extrakce zvuku z videa, Časosběrné video, Přehrávač videa, Nahrávání obrazovky
 • Zvuk: Hudební přehrávač, Tvorba vyzvánění, Editor zvuku, Bílý šum a zvuky pro spánek, Měnič hlasu, Nahrávání podcastů, Zesilovač hlasitosti, Potlačení šumu, Převodník zvuku
 • Tvořte hudbu: Bicí pad, Piano, Tvorba smyček a beatů, Syntezátor
 • Design a kreslení: Tvorba memů, Tvorba tapet, Editor pixel artu, Digitální kreslení a malba, Návrh loga, Pozvánky a přání, Plakáty a příspěvky na sítě

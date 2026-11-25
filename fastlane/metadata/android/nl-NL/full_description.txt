@@ -1,8 +1,8 @@
-42 tools, de meeste offline op je apparaat.
+45 tools, de meeste offline op je apparaat.
 
-• Foto: Foto-editor, Collage, Bijsnijden en schalen, Foto's comprimeren, Watermerk, Afbeeldingen naar PDF, Filtercamera, Fotometadata verwijderen, Dubbele foto's vinden, Screenshot-editor
+• Foto: Foto-editor, Collage, Bijsnijden en schalen, Foto's comprimeren, Watermerk, Afbeeldingen naar PDF, Filtercamera, Fotometadata verwijderen, Dubbele foto's vinden, Screenshot-editor, Verborgen album
 • Slimme tools: Achtergrond verwijderen, Automatische ondertitels, Foto's inkleuren, Foto verbeteren, Gezichten en kentekens vervagen
-• Video: Video knippen en samenvoegen, GIF-maker, Diavoorstelling-video, Video comprimeren, Videosnelheid, Audio uit video halen, Timelapse-video
+• Video: Video knippen en samenvoegen, GIF-maker, Diavoorstelling-video, Video comprimeren, Videosnelheid, Audio uit video halen, Timelapse-video, Videospeler, Schermrecorder
 • Audio: Muziekspeler, Beltoonmaker, Audio-editor, Witte ruis en slaapgeluiden, Stemvervormer, Podcastrecorder, Volumeversterker, Ruisonderdrukking, Audioconverter
 • Muziek maken: Drumpad, Piano, Loop- en beatmaker, Synthesizer
 • Ontwerpen en tekenen: Meme-maker, Achtergrondmaker, Pixelart-editor, Digitaal tekenen en schilderen, Logo-ontwerper, Uitnodigingen en kaarten, Posters en socialemediaberichten

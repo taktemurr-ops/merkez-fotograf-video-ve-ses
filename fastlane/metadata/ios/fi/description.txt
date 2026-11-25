@@ -1,8 +1,8 @@
-42 työkalua, useimmat offline laitteella.
+45 työkalua, useimmat offline laitteella.
 
-• Kuvat: Kuvankäsittely, Kollaasi, Rajaa ja muuta kokoa, Kuvien pakkaus, Vesileima, Kuvat PDF:ksi, Suodinkamera, Kuvien metatietojen poisto, Kaksoiskuvien etsintä, Kuvakaappausten muokkaus
+• Kuvat: Kuvankäsittely, Kollaasi, Rajaa ja muuta kokoa, Kuvien pakkaus, Vesileima, Kuvat PDF:ksi, Suodinkamera, Kuvien metatietojen poisto, Kaksoiskuvien etsintä, Kuvakaappausten muokkaus, Piilotettu albumi
 • Älykkäät työkalut: Taustan poisto, Automaattiset tekstitykset, Kuvien väritys, Kuvan parannus, Kasvojen ja kilpien sumennus
-• Video: Videon leikkaus ja yhdistys, GIF-tekijä, Diaesitysvideo, Videon pakkaus, Videon nopeus, Ääni videosta, Aikaviivevideo
+• Video: Videon leikkaus ja yhdistys, GIF-tekijä, Diaesitysvideo, Videon pakkaus, Videon nopeus, Ääni videosta, Aikaviivevideo, Videosoitin, Näytön tallennin
 • Ääni: Musiikkisoitin, Soittoäänen tekijä, Äänieditori, Valkoinen kohina ja unen äänet, Äänenmuunnin, Podcast-tallennin, Äänenvahvistin, Kohinanpoisto, Äänimuunnin
 • Tee musiikkia: Rumpupadi, Piano, Luuppi- ja biittityökalu, Syntetisaattori
 • Suunnittelu ja piirto: Meemigeneraattori, Taustakuvan tekijä, Pikselitaide-editori, Digitaalinen piirto ja maalaus, Logosuunnittelu, Kutsut ja kortit, Julisteet ja somepostaukset

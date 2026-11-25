@@ -1,8 +1,8 @@
-42 tool; karamihan offline sa device mo.
+45 tool; karamihan offline sa device mo.
 
-• Larawan: Photo Editor, Collage, Crop at Resize, Photo Compressor, Watermark, Larawan sa PDF, Filter Camera, Tanggalin ang Metadata ng Larawan, Hanapin ang Dobleng Larawan, Screenshot Editor
+• Larawan: Photo Editor, Collage, Crop at Resize, Photo Compressor, Watermark, Larawan sa PDF, Filter Camera, Tanggalin ang Metadata ng Larawan, Hanapin ang Dobleng Larawan, Screenshot Editor, Nakatagong Album
 • Smart Tools: Tanggal Background, Auto Subtitle, Kulayan ang Larawan, Photo Enhancer, I-blur ang Mukha at Plaka
-• Video: I-trim at Pagsamahin ang Video, GIF Maker, Slideshow Video, Video Compressor, Video Speed, Kunin ang Audio sa Video, Time-lapse na Video
+• Video: I-trim at Pagsamahin ang Video, GIF Maker, Slideshow Video, Video Compressor, Video Speed, Kunin ang Audio sa Video, Time-lapse na Video, Video Player, Screen Recorder
 • Audio: Music Player, Ringtone Maker, Audio Editor, White Noise at Tunog Pantulog, Voice Changer, Podcast Recorder, Volume Booster, Noise Reducer, Audio Converter
 • Gumawa ng Musika: Drum Pad, Piano, Loop at Beat Maker, Synthesizer
 • Disenyo at Guhit: Meme Maker, Wallpaper Maker, Pixel Art Editor, Digital na Pagguhit at Pagpinta, Logo Designer, Invitation at Card Maker, Poster at Social Post Maker

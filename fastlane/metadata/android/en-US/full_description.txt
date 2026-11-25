@@ -1,8 +1,8 @@
-42 tools; most work offline, on your device.
+45 tools; most work offline, on your device.
 
-• Photo: Photo Editor, Collage, Crop & Resize, Photo Compressor, Watermark, Images to PDF, Filter Camera, Photo Metadata Remover, Duplicate Photo Finder, Screenshot Editor
+• Photo: Photo Editor, Collage, Crop & Resize, Photo Compressor, Watermark, Images to PDF, Filter Camera, Photo Metadata Remover, Duplicate Photo Finder, Screenshot Editor, Hidden Album
 • Smart Tools: Background Remover, Auto Subtitles, Photo Colorizer, Photo Enhancer, Face & Plate Blur
-• Video: Video Trim & Merge, GIF Maker, Slideshow Video, Video Compressor, Video Speed, Extract Audio from Video, Time-lapse Video
+• Video: Video Trim & Merge, GIF Maker, Slideshow Video, Video Compressor, Video Speed, Extract Audio from Video, Time-lapse Video, Video Player, Screen Recorder
 • Audio: Music Player, Ringtone Maker, Audio Editor, White Noise & Sleep Sounds, Voice Changer, Podcast Recorder, Volume Booster, Noise Reducer, Audio Converter
 • Make Music: Drum Pad, Piano, Loop & Beat Maker, Synthesizer
 • Design & Draw: Meme Maker, Wallpaper Maker, Pixel Art Editor, Digital Drawing & Painting, Logo Designer, Invitation & Card Maker, Poster & Social Post Maker
