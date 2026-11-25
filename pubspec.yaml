@@ -191,15 +191,15 @@ dependencies:
   uyg_video_oynatici:
     git:
       url: https://github.com/taktemurr-ops/uyg-video-oynatici
-      ref: main
+      ref: 811238c96b55e2407f058bd714513c69d2298448
   uyg_gizli_album:
     git:
       url: https://github.com/taktemurr-ops/uyg-gizli-album
-      ref: main
+      ref: 6c813b2ecec4236886e3ce351efcca2e4ae82276
   uyg_ekran_kaydedici:
     git:
       url: https://github.com/taktemurr-ops/uyg-ekran-kaydedici
-      ref: main
+      ref: 46f0a789aa5159527e8c1ff8a6b94313ccd9367d
   flutter_localizations:
     sdk: flutter
   flutter_riverpod: ^2.6.1
