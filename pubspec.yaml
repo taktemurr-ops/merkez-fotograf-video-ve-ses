@@ -18,188 +18,188 @@ dependencies:
   medya_motoru:
     git:
       url: https://github.com/taktemurr-ops/medya-motoru
-      ref: 55f68decfa9b26c27e501ea8a1a10e5c572cde7e
+      ref: c9199c4cddffe1606c13c1042f4e8e5abd85dcb7
   # Merkezdeki araçlar (her biri kendi deposunda)
   uyg_fotograf_duzenleyici:
     git:
       url: https://github.com/taktemurr-ops/uyg-fotograf-duzenleyici
-      ref: 6155355993bc5b710f2bd90b07986fc38999399a
+      ref: 9b3e3c83aef4cfca8cce25b0adc800218f1f752f
   uyg_kolaj:
     git:
       url: https://github.com/taktemurr-ops/uyg-kolaj
-      ref: ead49fcc3eaafd7624e01a4f290300ea62b37741
+      ref: 9bf8a2f668dc6b093bcec7c3622b474cbaca3998
   uyg_kirp_ve_boyutlandir:
     git:
       url: https://github.com/taktemurr-ops/uyg-kirp-ve-boyutlandir
-      ref: 7fec66bfd1fdd079288ba627b33b2949178d0772
+      ref: 6c54c2679cc68a24a8a6a0b62a8dbbe6316a4a76
   uyg_arka_plan_silme:
     git:
       url: https://github.com/taktemurr-ops/uyg-arka-plan-silme
-      ref: c1df37c73b1ec84fc153636d4312d820316560f7
+      ref: 34af67a0da6108565cedf325d12e5d9cbd35fa90
   uyg_fotograf_sikistirma:
     git:
       url: https://github.com/taktemurr-ops/uyg-fotograf-sikistirma
-      ref: 7e7f0597a8b107f6a32752155bdb379c9d85fdd5
+      ref: 2c0809a91a84ef085408c50a5b78e6721b3283f5
   uyg_video_kirp_ve_birlestir:
     git:
       url: https://github.com/taktemurr-ops/uyg-video-kirp-ve-birlestir
-      ref: fc31903740575da9841d9cfc38200a087bc1f551
+      ref: 5090ba86cd8c0bdafcafb683aa86713965725cbb
   uyg_gif_yapici:
     git:
       url: https://github.com/taktemurr-ops/uyg-gif-yapici
-      ref: 78587255076324ff1b9f6c3b82443abad07db717
+      ref: 0be36a649017168e06abbd553f24f7e93eabe0ef
   uyg_filigran_ekleme:
     git:
       url: https://github.com/taktemurr-ops/uyg-filigran-ekleme
-      ref: 6ce5b91f9b6a65a470a70b8a0dce10afa5256450
+      ref: d5a1f69e9f854d5ec3181d2f760e10ffe2a4e24f
   uyg_meme_yapici:
     git:
       url: https://github.com/taktemurr-ops/uyg-meme-yapici
-      ref: e2899a6fa19cbfabfa4e522330c2dc67f788d1fe
+      ref: b536353947724346a832f42c99a530b01235dad4
   uyg_gorselden_pdf:
     git:
       url: https://github.com/taktemurr-ops/uyg-gorselden-pdf
-      ref: 32e9501ca9878cf3e244461c1cfc781d006d4f30
+      ref: 9d5e5eba8dd816234de91e70c2d298e5fe74f7d0
   uyg_muzik_calar:
     git:
       url: https://github.com/taktemurr-ops/uyg-muzik-calar
-      ref: dbdf2667569fb6cd07d91a70b1e08bbbb887f6e1
+      ref: 7da3f206e65f2f95613e6cc4c50cde043190fac5
   uyg_zil_sesi_yapici:
     git:
       url: https://github.com/taktemurr-ops/uyg-zil-sesi-yapici
-      ref: bf0d100b047fbfc0304a10484dfa946a9f39b557
+      ref: e8550e0d6e4b6907964dd287472583a79bfe9794
   uyg_ses_duzenleyici:
     git:
       url: https://github.com/taktemurr-ops/uyg-ses-duzenleyici
-      ref: f4a9d980b1aa932582dd3d1bd52edbbfa3f27caa
+      ref: bcb7b9d93a3721bb26e040e9ee49b8792fcd7f91
   uyg_beyaz_gurultu_ve_uyku_sesleri:
     git:
       url: https://github.com/taktemurr-ops/uyg-beyaz-gurultu-ve-uyku-sesleri
-      ref: 0534f5e569e40259b3730c1c8a26ece818f7692b
+      ref: 167a093a5b6c2c9ec1ba671721076621011ff274
   uyg_davul_pedi:
     git:
       url: https://github.com/taktemurr-ops/uyg-davul-pedi
-      ref: 5bf07807984fc5594518e538718c7b3a3a86b80d
+      ref: 10665415ee7202f816ded12b731636c7ae9ee5e7
   uyg_piyano:
     git:
       url: https://github.com/taktemurr-ops/uyg-piyano
-      ref: 48d6f96e95b279b8a7a270f28b530a9b85add132
+      ref: 9a3434fbf4ae3160979a77e6d47a928a710c1c0d
   uyg_ses_degistirici:
     git:
       url: https://github.com/taktemurr-ops/uyg-ses-degistirici
-      ref: cee634839208875c64930268bb53a00ec22a7c21
+      ref: f89da7c37a3adc19fb07789b662aaac1d4c7ca27
   uyg_duvar_kagidi_uretici:
     git:
       url: https://github.com/taktemurr-ops/uyg-duvar-kagidi-uretici
-      ref: 1df90d2f94236473ddc7891df4694324dc9df1a2
+      ref: ea5062cf54c47d2a152d57602fcd3cbe67a16b53
   uyg_filtreli_kamera:
     git:
       url: https://github.com/taktemurr-ops/uyg-filtreli-kamera
-      ref: 3da58273dcaa355fd0d390e143742c758e9452d9
+      ref: 7665981c10ecad4bc631a24d9c0feb2230b77e55
   uyg_slayt_gosterisi_video:
     git:
       url: https://github.com/taktemurr-ops/uyg-slayt-gosterisi-video
-      ref: 8f30335b622e7f6650848dbd5d7ad463c1d45d1a
+      ref: 0d4fb48b616362b5f11610547252262cf576f1d8
   uyg_video_sikistirma:
     git:
       url: https://github.com/taktemurr-ops/uyg-video-sikistirma
-      ref: 239d8d94bf92254309d7ccd0ce1d61523dbf8870
+      ref: de63dada91e71ab4b5f29b5204da9c0ea0487f8d
   uyg_video_hiz:
     git:
       url: https://github.com/taktemurr-ops/uyg-video-hiz
-      ref: 117a6c5919789d46e8f46beabc07abc7a3189322
+      ref: 5ed22686d3916ab22bcc04ac2ab811b9855fe7e8
   uyg_videodan_ses_cikarma:
     git:
       url: https://github.com/taktemurr-ops/uyg-videodan-ses-cikarma
-      ref: 98e0f063ea46deb5eb30f32da647841ccc285f04
+      ref: a7e4cc4bef363fe52d59e9920850069c3ccc0a17
   uyg_otomatik_altyazi:
     git:
       url: https://github.com/taktemurr-ops/uyg-otomatik-altyazi
-      ref: 0e3cfb987fa722375c25065c722628916c54d208
+      ref: ff38b074e6068bea13401e45c4c6514f8969d03c
   uyg_fotograf_renklendirme:
     git:
       url: https://github.com/taktemurr-ops/uyg-fotograf-renklendirme
-      ref: fdc8be725d072e138e08ca573cc00d1dc41e731a
+      ref: 51b10603cea54e1a713f384613183e4634338569
   uyg_fotograf_iyilestirme:
     git:
       url: https://github.com/taktemurr-ops/uyg-fotograf-iyilestirme
-      ref: ede9917a15cbe9e3a20be0e5a9ce488f957695f7
+      ref: a96ddb0f9ac6381d27297eff60ce656ad68c0565
   uyg_yuz_ve_plaka_bulaniklastirma:
     git:
       url: https://github.com/taktemurr-ops/uyg-yuz-ve-plaka-bulaniklastirma
-      ref: d5576f73dbe42c42c255da678ea5cc49d83516c7
+      ref: fcd5ea8c143254ff4aa64ddcd3b5b00c5aa3213c
   uyg_fotograf_bilgisi_silici:
     git:
       url: https://github.com/taktemurr-ops/uyg-fotograf-bilgisi-silici
-      ref: 723b7835f6d9ac2397a717aa75585e6961cff843
+      ref: 5510e10d3cda6ec465dc8cc869cbc6ef33ed862a
   uyg_kopya_fotograf_bulucu:
     git:
       url: https://github.com/taktemurr-ops/uyg-kopya-fotograf-bulucu
-      ref: e428d8f7609e6d35fab0c5f57b763c7fd4caf1c3
+      ref: 1eb3e5c696dd5a47d83412866600b05114285ecc
   uyg_zaman_atlamali_video:
     git:
       url: https://github.com/taktemurr-ops/uyg-zaman-atlamali-video
-      ref: c65b39463297bfdce601f930025f3d835516b917
+      ref: 73f54586a5a7843144f7ac00f23290badc1e6385
   uyg_ekran_goruntusu_duzenleyici:
     git:
       url: https://github.com/taktemurr-ops/uyg-ekran-goruntusu-duzenleyici
-      ref: ff07f5da5b4561cf24cb667ff0e4071b80300697
+      ref: eba31783218eeadf365cd142923a7412daf9a583
   uyg_piksel_sanati_editoru:
     git:
       url: https://github.com/taktemurr-ops/uyg-piksel-sanati-editoru
-      ref: 48ecb72dd2de5203aedbf676d3acff9d083f9a38
+      ref: 9d9fc4c89f3c6f33ad987fa4ee78e1305c519d39
   uyg_dijital_resim_ve_boyama:
     git:
       url: https://github.com/taktemurr-ops/uyg-dijital-resim-ve-boyama
-      ref: 74df7aa5835fcab91989d74029b6c1f69aa5da48
+      ref: e184d407f59b0b4ea972c66a2677b42a7cb64d73
   uyg_logo_tasarimi:
     git:
       url: https://github.com/taktemurr-ops/uyg-logo-tasarimi
-      ref: 8a4c4a5aa3b05d4c37f1637158d97f26c8d20888
+      ref: 0680c68343bf4e2e162cd06e50ab8437a4d7466a
   uyg_davetiye_ve_kart_tasarimi:
     git:
       url: https://github.com/taktemurr-ops/uyg-davetiye-ve-kart-tasarimi
-      ref: 8b15be369f6109af7505adaecbdcc68ba752a8b1
+      ref: 771a1bda1500001ea64b67be67a01026ad213ba1
   uyg_afis_ve_sosyal_medya_tasarimi:
     git:
       url: https://github.com/taktemurr-ops/uyg-afis-ve-sosyal-medya-tasarimi
-      ref: 648e66ab1138812e801dd2bec73b870b8013d84b
+      ref: 03f1ae488823ff4f0f164d015d93e11e6026fa65
   uyg_podcast_kaydi:
     git:
       url: https://github.com/taktemurr-ops/uyg-podcast-kaydi
-      ref: 65da0c08ca02c47967176dda5a4fd2972860bd1b
+      ref: 32fd05e7ce76f3bfff413b2fe55e0106f52f3127
   uyg_ses_yukseltici:
     git:
       url: https://github.com/taktemurr-ops/uyg-ses-yukseltici
-      ref: a4f773199604dcad97c36d97042bf54fc09ab309
+      ref: 19b9de0b9fb56ed5af97093058959d69a975d560
   uyg_gurultu_azaltma:
     git:
       url: https://github.com/taktemurr-ops/uyg-gurultu-azaltma
-      ref: 27ea58a0cfbbe89912b7a97bf0ecc28d65f2f95a
+      ref: 549cb4292924c998cec5236551232da0744ee8b6
   uyg_ses_formati_donusturucu:
     git:
       url: https://github.com/taktemurr-ops/uyg-ses-formati-donusturucu
-      ref: 04463f684f213ab10607015ea3741050a2e7f5ef
+      ref: 15210f9ebe3ea1e91bd58e58dbcc5b825d71fa29
   uyg_dongu_ve_ritim_yapici:
     git:
       url: https://github.com/taktemurr-ops/uyg-dongu-ve-ritim-yapici
-      ref: d4381b927ab87e94fba20d061bc65988755612b6
+      ref: 8e08b6af80cedad018ba97ddd296d1cffb4b8e5d
   uyg_sentezleyici:
     git:
       url: https://github.com/taktemurr-ops/uyg-sentezleyici
-      ref: 7963079af7be45888f3924b4fc4cc202470a5ecc
+      ref: 0f8481c2d7f265e6d273ade7386a594b5b5b5f2f
   uyg_video_oynatici:
     git:
       url: https://github.com/taktemurr-ops/uyg-video-oynatici
-      ref: c5ea5b660bcf19e595e1527cbabf24319656fdeb
+      ref: 5acff4ad47c6706ed2ee2abd205d1d20dc3e32ad
   uyg_gizli_album:
     git:
       url: https://github.com/taktemurr-ops/uyg-gizli-album
-      ref: 80e2f2b3cc9daa9983d685e55f565bddd6ba8c9d
+      ref: 36624ba1285c6f2eab55e015ce2128c9e4a8bb38
   uyg_ekran_kaydedici:
     git:
       url: https://github.com/taktemurr-ops/uyg-ekran-kaydedici
-      ref: e531d3a81dcf8f66b416a103895b2de38e9a320c
+      ref: 942303c5cc33d8d62b1575d1d974342b345e697c
   flutter_localizations:
     sdk: flutter
   flutter_riverpod: ^2.6.1
@@ -217,7 +217,7 @@ dependency_overrides:
   medya_motoru:
     git:
       url: https://github.com/taktemurr-ops/medya-motoru
-      ref: 55f68decfa9b26c27e501ea8a1a10e5c572cde7e
+      ref: c9199c4cddffe1606c13c1042f4e8e5abd85dcb7
 
 dev_dependencies:
   flutter_test:
