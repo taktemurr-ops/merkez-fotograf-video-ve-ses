@@ -15,7 +15,6 @@ import os
 import re
 import subprocess
 import sys
-import urllib.request
 
 PRIMARY = "download.onnxruntime.ai"
 MIRROR = "onnxruntimepackages.z14.web.core.windows.net"
@@ -31,8 +30,11 @@ def reachable(url):
 
 
 def fetch(url):
-    with urllib.request.urlopen(url, timeout=60) as r:
-        return r.read().decode()
+    # CDN, Python'un varsayılan istemci adını reddediyor (403); curl kullan.
+    return subprocess.run(
+        ["curl", "-sfL", "-m", "60", "-A", "CocoaPods/1.17.0", url],
+        check=True, capture_output=True, text=True,
+    ).stdout
 
 
 def shard(name):
@@ -89,4 +91,7 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except Exception as e:  # yedek kaynak isteğe bağlı; derlemeyi kendisi bozmasın
+        print(f"UYARI: onnxruntime yedek kaynak denetimi atlandı: {e}", file=sys.stderr)
