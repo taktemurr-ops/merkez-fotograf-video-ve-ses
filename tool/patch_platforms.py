@@ -70,13 +70,15 @@ def android():
         # READ_MEDIA_VIDEO, READ_MEDIA_AUDIO ve MANAGE_EXTERNAL_STORAGE İSTENMEZ.
         # Galeriye kaydetme (gal) Android 11+ izinsizdir; Android 7–10 için
         # WRITE_EXTERNAL_STORAGE (maxSdkVersion 29) ve requestLegacyExternalStorage.
+        # camera_android_camerax aynı izni maxSdkVersion 28 ile bildiriyor;
+        # Android 10'da galeriye kaydetme için 29 değeri korunur (tools:replace).
         for perm in ("android.permission.CAMERA", "android.permission.RECORD_AUDIO"):
             if perm not in s:
                 s = s.replace("<application", '<uses-permission android:name="%s"/>\n    <application' % perm, 1)
         if "android.permission.WRITE_EXTERNAL_STORAGE" not in s:
             s = s.replace(
                 "<application",
-                '<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" android:maxSdkVersion="29"/>\n    <application',
+                '<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" android:maxSdkVersion="29" tools:replace="android:maxSdkVersion"/>\n    <application',
                 1,
             )
         if "requestLegacyExternalStorage" not in s:
