@@ -197,6 +197,8 @@ dependencies:
   in_app_purchase: ^3.2.0
 
 dependency_overrides:
+  # camera 0.11 -> camera_android_camerax 0.6, CameraX 1.5.3 ile derlenmiyor.
+  camera: ^0.12.0
   # Bütün araçlar aynı çekirdek ve motor sürümünü kullansın.
   studio_core:
     git:
