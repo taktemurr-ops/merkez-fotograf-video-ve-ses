@@ -1,0 +1,8 @@
+42 herramientas; casi todas sin conexión.
+
+• Foto: Editor de fotos, Collage, Recortar y redimensionar, Comprimir fotos, Marca de agua, Imágenes a PDF, Cámara con filtros, Borrar metadatos de fotos, Buscar fotos duplicadas, Editor de capturas
+• Herramientas inteligentes: Quitar fondo, Subtítulos automáticos, Colorear fotos, Mejorar fotos, Difuminar caras y matrículas
+• Vídeo: Cortar y unir vídeos, Creador de GIF, Vídeo de diapositivas, Comprimir vídeo, Velocidad de vídeo, Extraer audio de vídeo, Vídeo time-lapse
+• Audio: Reproductor de música, Creador de tonos, Editor de audio, Ruido blanco y sonidos para dormir, Cambiador de voz, Grabadora de pódcast, Amplificador de volumen, Reductor de ruido, Convertidor de audio
+• Haz música: Pad de batería, Piano, Creador de loops y ritmos, Sintetizador
+• Diseño y dibujo: Creador de memes, Creador de fondos, Editor de pixel art, Dibujo y pintura digital, Diseñador de logotipos, Invitaciones y tarjetas, Carteles y publicaciones sociales

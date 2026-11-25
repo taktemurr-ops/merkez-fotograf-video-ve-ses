@@ -1,0 +1,8 @@
+42 araç; çoğu internetsiz ve cihazında çalışır.
+
+• Fotoğraf: Fotoğraf Düzenleyici, Kolaj, Kırp ve Boyutlandır, Fotoğraf Sıkıştırma, Filigran Ekleme, Görselden PDF, Filtreli Kamera, Fotoğraf Bilgisi Silici, Kopya Fotoğraf Bulucu, Ekran Görüntüsü Düzenleyici
+• Akıllı Araçlar: Arka Plan Silme, Otomatik Altyazı, Fotoğraf Renklendirme, Fotoğraf İyileştirme, Yüz ve Plaka Bulanıklaştırma
+• Video: Video Kırp ve Birleştir, GIF Yapıcı, Slayt Gösterisi Video, Video Sıkıştırma, Video Hızı, Videodan Ses Çıkarma, Zaman Atlamalı Video
+• Ses: Müzik Çalar, Zil Sesi Yapıcı, Ses Düzenleyici, Beyaz Gürültü ve Uyku Sesleri, Ses Değiştirici, Podcast Kaydı, Ses Yükseltici, Gürültü Azaltma, Ses Formatı Dönüştürücü
+• Müzik Yap: Davul Pedi, Piyano, Döngü ve Ritim Yapıcı, Sentezleyici
+• Tasarım ve Çizim: Meme Yapıcı, Duvar Kâğıdı Üretici, Piksel Sanatı Editörü, Dijital Resim ve Boyama, Logo Tasarımı, Davetiye ve Kart Tasarımı, Afiş ve Sosyal Medya Tasarımı

@@ -1,0 +1,8 @@
+42 outils, la plupart hors ligne sur l'appareil.
+
+• Photo: Éditeur photo, Collage, Recadrer et redimensionner, Compresser des photos, Filigrane, Images en PDF, Caméra à filtres, Supprimer les métadonnées, Trouver les photos en double, Éditeur de captures
+• Outils intelligents: Supprimer l'arrière-plan, Sous-titres automatiques, Coloriser des photos, Améliorer les photos, Flouter visages et plaques
+• Vidéo: Couper et fusionner des vidéos, Créateur de GIF, Vidéo diaporama, Compresser une vidéo, Vitesse vidéo, Extraire l'audio d'une vidéo, Vidéo en accéléré
+• Audio: Lecteur de musique, Créateur de sonneries, Éditeur audio, Bruit blanc et sons pour dormir, Changeur de voix, Enregistreur de podcast, Amplificateur de volume, Réducteur de bruit, Convertisseur audio
+• Faire de la musique: Pad de batterie, Piano, Créateur de boucles et rythmes, Synthétiseur
+• Design et dessin: Créateur de mèmes, Créateur de fonds d'écran, Éditeur de pixel art, Dessin et peinture numérique, Créateur de logo, Invitations et cartes, Affiches et publications sociales

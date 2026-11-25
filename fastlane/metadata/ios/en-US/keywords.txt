@@ -1,0 +1,1 @@
+editor,collage,crop,resize,compressor,watermark,images,pdf,filter,camera,metadata,remover,duplicate
