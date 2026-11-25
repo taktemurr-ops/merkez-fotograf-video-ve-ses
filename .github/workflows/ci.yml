@@ -84,6 +84,14 @@ jobs:
       - name: Unit and widget tests
         run: flutter test --reporter expanded
 
+      # whisper_ggml (otomatik altyazı) yerel kod için belirli bir NDK sürümü ister;
+      # çalıştırıcıda yüklü değil ve Gradle lisans onayı olmadan kuramıyor.
+      - name: Android NDK (whisper_ggml için)
+        run: |
+          SDKM="$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager"
+          yes | "$SDKM" --licenses > /dev/null || true
+          "$SDKM" --install "ndk;29.0.13113456" > /dev/null
+
       - name: Android release APK + App Bundle
         env:
           AD_INT: ${{ secrets.ADMOB_ANDROID_INTERSTITIAL }}
