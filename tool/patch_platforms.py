@@ -8,6 +8,9 @@
 * iOS: display name, AdMob id, SKAdNetwork, tracking text, iOS 14+,
   universal app (iPhone + iPad, every iPad orientation, Split View /
   Stage Manager), App Transport Security kept strict.
+* Gizli Albüm biyometrik açma (local_auth): Android MainActivity
+  FlutterFragmentActivity olur; iOS NSFaceIDUsageDescription Info.plist'e ve
+  33 dilde InfoPlist.strings olarak eklenir (Xcode projesine kaydedilir).
 * Web: title, description, PWA manifest (any orientation, standalone),
   referrer policy.
 
@@ -24,6 +27,43 @@ APP_NAME_XML = APP_NAME.replace("&", "&amp;")
 # Google's PUBLIC TEST AdMob app ids. Replace before publishing.
 ADMOB_ANDROID = os.environ.get("ADMOB_APP_ID_ANDROID") or "ca-app-pub-3940256099942544~3347511713"
 ADMOB_IOS = os.environ.get("ADMOB_APP_ID_IOS") or "ca-app-pub-3940256099942544~1458002511"
+
+# Face ID açıklaması (33 dil; iOS izin penceresinde gösterilir). lproj adları.
+FACEID_TEXTS = [
+    ('tr', 'Face ID yalnızca Gizli Albüm\'ü, sizin açtığınız biyometrik kilitle açmak için kullanılır. Yüz verileri uygulamaya verilmez.'),
+    ('en', 'Face ID is used only to open the Hidden Album if you turn on biometric unlock. Face data is never shared with the app.'),
+    ('de', 'Face ID wird nur verwendet, um das versteckte Album zu öffnen, wenn du biometrisches Entsperren aktivierst. Gesichtsdaten erhält die App nie.'),
+    ('es', 'Face ID solo se usa para abrir el álbum oculto si activas el desbloqueo biométrico. La app nunca recibe datos faciales.'),
+    ('fr', 'Face ID sert uniquement à ouvrir l’album caché si vous activez le déverrouillage biométrique. L’app ne reçoit jamais de données faciales.'),
+    ('ar', 'يُستخدم Face ID فقط لفتح الألبوم المخفي إذا فعّلت الفتح بالقياسات الحيوية. لا يحصل التطبيق على بيانات الوجه أبدًا.'),
+    ('fa', 'Face ID فقط برای باز کردن آلبوم پنهان، اگر بازکردن بیومتریک را روشن کنید، به کار می\u200cرود. داده\u200cهای چهره هرگز به برنامه داده نمی\u200cشود.'),
+    ('he', 'Face ID משמש רק לפתיחת האלבום המוסתר אם הפעלתם ביטול נעילה ביומטרי. האפליקציה לעולם אינה מקבלת נתוני פנים.'),
+    ('ur', 'Face ID صرف چھپا البم کھولنے کے لیے استعمال ہوتا ہے، اگر آپ بایومیٹرک ان لاک آن کریں۔ چہرے کا ڈیٹا ایپ کو کبھی نہیں ملتا۔'),
+    ('ru', 'Face ID используется только для открытия скрытого альбома, если вы включили биометрическую разблокировку. Приложение не получает данные лица.'),
+    ('uk', 'Face ID використовується лише для відкриття прихованого альбому, якщо ви ввімкнули біометричне розблокування. Застосунок не отримує даних обличчя.'),
+    ('pl', 'Face ID służy tylko do otwierania ukrytego albumu, jeśli włączysz odblokowanie biometryczne. Aplikacja nigdy nie otrzymuje danych twarzy.'),
+    ('cs', 'Face ID slouží jen k otevření skrytého alba, pokud zapnete biometrické odemknutí. Aplikace nikdy nedostává data obličeje.'),
+    ('ro', 'Face ID este folosit doar pentru a deschide albumul ascuns, dacă activați deblocarea biometrică. Aplicația nu primește niciodată date faciale.'),
+    ('hu', 'A Face ID csak a rejtett album megnyitására szolgál, ha bekapcsolod a biometrikus feloldást. Az alkalmazás soha nem kap arcadatokat.'),
+    ('el', 'Το Face ID χρησιμοποιείται μόνο για το άνοιγμα του κρυφού άλμπουμ, αν ενεργοποιήσετε το βιομετρικό ξεκλείδωμα. Η εφαρμογή δεν λαμβάνει ποτέ δεδομένα προσώπου.'),
+    ('it', 'Face ID viene usato solo per aprire l’album nascosto se attivi lo sblocco biometrico. L’app non riceve mai dati del volto.'),
+    ('pt', 'O Face ID é usado só para abrir o álbum oculto se você ativar o desbloqueio biométrico. O app nunca recebe dados do rosto.'),
+    ('nl', 'Face ID wordt alleen gebruikt om het verborgen album te openen als je biometrisch ontgrendelen aanzet. De app krijgt nooit gezichtsgegevens.'),
+    ('sv', 'Face ID används bara för att öppna det dolda albumet om du slår på biometrisk upplåsning. Appen får aldrig ansiktsdata.'),
+    ('da', 'Face ID bruges kun til at åbne det skjulte album, hvis du slår biometrisk oplåsning til. Appen får aldrig ansigtsdata.'),
+    ('nb', 'Face ID brukes bare til å åpne det skjulte albumet hvis du slår på biometrisk opplåsing. Appen får aldri ansiktsdata.'),
+    ('fi', 'Face ID:tä käytetään vain piilotetun albumin avaamiseen, jos otat biometrisen avauksen käyttöön. Sovellus ei koskaan saa kasvotietoja.'),
+    ('ja', 'Face ID は、生体認証での解除をオンにした場合に非表示アルバムを開くためだけに使います。顔のデータがアプリに渡ることはありません。'),
+    ('ko', 'Face ID는 생체 인증 잠금 해제를 켠 경우 숨긴 앨범을 여는 데만 사용돼요. 얼굴 데이터는 앱에 전달되지 않아요.'),
+    ('zh-Hans', '仅在你开启生物识别解锁时，Face ID 用于打开隐藏相册。应用永远不会获得面部数据。'),
+    ('hi', 'Face ID सिर्फ़ छिपा एल्बम खोलने के लिए इस्तेमाल होता है, अगर आप बायोमेट्रिक अनलॉक चालू करें। चेहरे का डेटा ऐप को कभी नहीं मिलता।'),
+    ('bn', 'আপনি বায়োমেট্রিক আনলক চালু করলে Face ID শুধু লুকানো অ্যালবাম খুলতে ব্যবহার হয়। মুখের ডেটা অ্যাপ কখনও পায় না।'),
+    ('id', 'Face ID hanya dipakai untuk membuka album tersembunyi jika Anda mengaktifkan buka dengan biometrik. Aplikasi tidak pernah menerima data wajah.'),
+    ('ms', 'Face ID hanya digunakan untuk membuka album tersembunyi jika anda menghidupkan buka kunci biometrik. Aplikasi tidak pernah menerima data wajah.'),
+    ('th', 'Face ID ใช้เพื่อเปิดอัลบั้มลับเท่านั้น เมื่อคุณเปิดการปลดล็อกด้วยไบโอเมตริก แอปไม่ได้รับข้อมูลใบหน้าเลย'),
+    ('vi', 'Face ID chỉ được dùng để mở album ẩn nếu bạn bật mở khóa sinh trắc học. Ứng dụng không bao giờ nhận dữ liệu khuôn mặt.'),
+    ('fil', 'Ginagamit lang ang Face ID para buksan ang nakatagong album kung i-on mo ang biometric na pag-unlock. Hindi kailanman natatanggap ng app ang data ng mukha.'),
+]
 
 
 def read(p):
@@ -203,6 +243,24 @@ def android():
         write(gradle, s)
 
 
+def android_fragment_activity():
+    """Gizli Albüm biyometrik açma (local_auth) FlutterFragmentActivity ister."""
+    root = "android/app/src/main"
+    if not os.path.isdir(root):
+        return
+    for d, _, files in os.walk(root):
+        for f in files:
+            if f not in ("MainActivity.kt", "MainActivity.java"):
+                continue
+            p = os.path.join(d, f)
+            s = read(p)
+            if "FlutterFragmentActivity" in s:
+                continue
+            s = s.replace("io.flutter.embedding.android.FlutterActivity", "io.flutter.embedding.android.FlutterFragmentActivity")
+            s = re.sub(r"\bFlutterActivity\b", "FlutterFragmentActivity", s)
+            write(p, s)
+
+
 def ios():
     plist = "ios/Runner/Info.plist"
     if os.path.exists(plist):
@@ -218,6 +276,7 @@ def ios():
             ("NSMicrophoneUsageDescription", "Mikrofon yalnızca ses kaydı yaptığınızda (podcast, ses değiştirici, ses düzenleyici) kullanılır; kayıtlar cihazınızda kalır. / The microphone is used only while you record; recordings stay on your device."),
             ("NSPhotoLibraryUsageDescription", "Yalnızca sizin seçtiğiniz fotoğraf ve videolar açılır. / Only the photos and videos you pick are opened."),
             ("NSPhotoLibraryAddUsageDescription", "Düzenlediğiniz fotoğraf ve videoları galerinize kaydetmek için. / To save the photos and videos you edit to your library."),
+            ("NSFaceIDUsageDescription", FACEID_TEXTS[1][1]),
         ):
             if key not in s:
                 extra += "\t<key>%s</key>\n\t<string>%s</string>\n" % (key, text)
@@ -280,7 +339,73 @@ def ios():
         s = re.sub(r"IPHONEOS_DEPLOYMENT_TARGET = [0-9.]+;", "IPHONEOS_DEPLOYMENT_TARGET = 15.6;", s)
         # Universal app: iPhone (1) + iPad (2).
         s = re.sub(r'TARGETED_DEVICE_FAMILY = "?[0-9,]+"?;', 'TARGETED_DEVICE_FAMILY = "1,2";', s)
+        s = ios_faceid_strings(s)
         write(pbx, s)
+
+
+def ios_faceid_strings(pbx):
+    """Face ID açıklamasını 33 dilde InfoPlist.strings olarak ekler ve projeye kaydeder."""
+    for lang, text in FACEID_TEXTS:
+        d = "ios/Runner/%s.lproj" % lang
+        os.makedirs(d, exist_ok=True)
+        esc = text.replace("\\", "\\\\").replace('"', '\\"')
+        write(d + "/InfoPlist.strings", '"NSFaceIDUsageDescription" = "%s";\n' % esc)
+    if "InfoPlist.strings in Resources" in pbx:
+        return pbx
+    import hashlib
+
+    def uid(x):
+        return hashlib.md5(("gs100-" + x).encode()).hexdigest()[:24].upper()
+
+    def q(x):
+        return '"%s"' % x if "-" in x else x
+
+    vg, bf = uid("variant"), uid("buildfile")
+    refs = [(uid("ref-" + l), l) for l, _ in FACEID_TEXTS]
+    pbx = pbx.replace(
+        "/* Begin PBXBuildFile section */\n",
+        "/* Begin PBXBuildFile section */\n\t\t%s /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = %s /* InfoPlist.strings */; };\n" % (bf, vg),
+        1,
+    )
+    pbx = pbx.replace(
+        "/* Begin PBXFileReference section */\n",
+        "/* Begin PBXFileReference section */\n"
+        + "".join(
+            '\t\t%s /* %s */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = %s; path = %s; sourceTree = "<group>"; };\n'
+            % (r, l, q(l), q("%s.lproj/InfoPlist.strings" % l))
+            for r, l in refs
+        ),
+        1,
+    )
+    group = "\t\t%s /* InfoPlist.strings */ = {\n\t\t\tisa = PBXVariantGroup;\n\t\t\tchildren = (\n%s\t\t\t);\n\t\t\tname = InfoPlist.strings;\n\t\t\tsourceTree = \"<group>\";\n\t\t};\n" % (
+        vg, "".join("\t\t\t\t%s /* %s */,\n" % (r, l) for r, l in refs))
+    if "/* Begin PBXVariantGroup section */\n" in pbx:
+        pbx = pbx.replace("/* Begin PBXVariantGroup section */\n", "/* Begin PBXVariantGroup section */\n" + group, 1)
+    else:
+        pbx = pbx.replace(
+            "/* Begin XCBuildConfiguration section */",
+            "/* Begin PBXVariantGroup section */\n" + group + "/* End PBXVariantGroup section */\n\n/* Begin XCBuildConfiguration section */",
+            1,
+        )
+    # Runner grubu ve Runner hedefinin kaynak adımı (Main.storyboard'u içeren; RunnerTests değil).
+    pbx = re.sub(
+        r"(/\* Runner \*/ = \{\s*isa = PBXGroup;\s*children = \()",
+        lambda m: m.group(1) + "\n\t\t\t\t%s /* InfoPlist.strings */," % vg,
+        pbx,
+        count=1,
+    )
+    for m in re.finditer(r"/\* Resources \*/ = \{\s*isa = PBXResourcesBuildPhase;\s*buildActionMask = \d+;\s*files = \(([^)]*)\)", pbx):
+        if "Main.storyboard in Resources" in m.group(1):
+            pbx = pbx[: m.start(1)] + "\n\t\t\t\t%s /* InfoPlist.strings in Resources */," % bf + pbx[m.start(1):]
+            break
+    m = re.search(r"knownRegions = \(([^)]*)\);", pbx)
+    if m:
+        have = set(x.strip().strip('"') for x in m.group(1).replace("\n", " ").split(",") if x.strip())
+        add = "".join("\t\t\t\t%s,\n" % q(l) for l, _ in FACEID_TEXTS if l not in have)
+        if add:
+            body = m.group(1).rstrip() + "\n"
+            pbx = pbx[: m.start(1)] + body + add + "\t\t\t" + pbx[m.end(1):]
+    return pbx
 
 
 def web():
@@ -310,6 +435,7 @@ def web():
 
 if __name__ == "__main__":
     android()
+    android_fragment_activity()
     ios()
     web()
     print("platform folders patched")
