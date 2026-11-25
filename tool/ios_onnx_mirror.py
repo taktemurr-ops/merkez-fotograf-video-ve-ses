@@ -42,14 +42,15 @@ def shard(name):
     return h[0], h[1], h[2]
 
 
-def latest_version(name):
+def versions(name):
     a, b, c = shard(name)
     for line in fetch(f"{CDN}/all_pods_versions_{a}_{b}_{c}.txt").splitlines():
         parts = line.split("/")
         if parts[0] == name:
-            vs = [v for v in parts[1:] if re.fullmatch(r"[0-9.]+", v)]
-            return max(vs, key=lambda v: [int(x) for x in v.split(".")])
-    raise SystemExit(f"{name} CDN'de bulunamadı")
+            vs = [v for v in parts[1:] if re.fullmatch(r"[0-9]+\.[0-9]+\.[0-9]+", v)]
+            vs = [v for v in vs if [int(x) for x in v.split(".")] >= [1, 18, 0]]
+            return sorted(vs, key=lambda v: [int(x) for x in v.split(".")], reverse=True)
+    raise RuntimeError(f"{name} CDN'de bulunamadı")
 
 
 def spec(name, version):
@@ -57,37 +58,49 @@ def spec(name, version):
     return json.loads(fetch(f"{CDN}/Specs/{a}/{b}/{c}/{name}/{version}/{name}.podspec.json"))
 
 
-def main():
-    version = latest_version("onnxruntime-objc")
-    specs = {n: spec(n, version) for n in PODS}
-    first = specs["onnxruntime-c"]["source"].get("http", "")
-    if PRIMARY not in first or reachable(first):
-        print("onnxruntime arşivi doğrudan indirilebiliyor; değişiklik yok.")
-        return
-    changed = []
-    for n, s in specs.items():
-        url = s["source"].get("http", "")
-        if PRIMARY not in url:
-            continue
+def usable(url):
+    """Arşiv TLS doğrulamasıyla indirilebiliyorsa o adresi döndürür."""
+    if reachable(url):
+        return url
+    if PRIMARY in url:
         alt = url.replace(PRIMARY, MIRROR)
-        if not reachable(alt):
-            print(f"UYARI: yedek adres de doğrulanamadı: {alt}", file=sys.stderr)
-            return
-        s["source"]["http"] = alt
-        changed.append(n)
-    if not changed:
+        if reachable(alt):
+            return alt
+    return None
+
+
+def main():
+    all_versions = versions("onnxruntime-objc")
+    newest = all_versions[0]
+    first = spec("onnxruntime-c", newest)["source"].get("http", "")
+    if PRIMARY not in first or reachable(first):
+        print(f"onnxruntime {newest} arşivi doğrudan indirilebiliyor; değişiklik yok.")
+        return
+    for version in all_versions:
+        specs = {n: spec(n, version) for n in PODS}
+        urls = {}
+        for n, sp in specs.items():
+            url = sp["source"].get("http")
+            urls[n] = usable(url) if url else "git"
+        print(f"onnxruntime {version}: {urls}")
+        if all(urls.values()):
+            break
+    else:
+        print("UYARI: hiçbir onnxruntime sürümü için doğrulanabilir arşiv bulunamadı.", file=sys.stderr)
         return
     podfile = "ios/Podfile"
     p = open(podfile).read()
     lines = ""
-    for n in changed:
+    for n, sp in specs.items():
+        if urls[n] != "git":
+            sp["source"]["http"] = urls[n]
         fn = f"{n}.podspec.json"
         with open(os.path.join("ios", fn), "w") as f:
-            json.dump(specs[n], f, indent=2)
+            json.dump(sp, f, indent=2)
         lines += f"  pod '{n}', :podspec => '{fn}'\n"
-    p = re.sub(r"(target 'Runner' do\n)", r"\1" + lines.replace("\\", "\\\\"), p, count=1)
+    p = re.sub(r"(target 'Runner' do\n)", lambda m: m.group(1) + lines, p, count=1)
     open(podfile, "w").write(p)
-    print(f"onnxruntime {version}: {', '.join(changed)} yedek kaynaktan indirilecek ({MIRROR}).")
+    print(f"onnxruntime {version} doğrulanmış kaynaktan kullanılacak.")
 
 
 if __name__ == "__main__":
