@@ -14,7 +14,7 @@ dependencies:
     git:
       url: https://github.com/taktemurr-ops/studio-core
       ref: 92b51dd7d47c300d3611c448b5474fca5f793f2a
-  # Araçların ortak motoru (aynı zamanda yerel eklenti: Media3 / AVFoundation / ONNX Runtime)
+  # Araçların ortak motoru (aynı zamanda yerel eklenti: Media3 / AVFoundation; ONNX Runtime (Android) / Core ML (iOS))
   medya_motoru:
     git:
       url: https://github.com/taktemurr-ops/medya-motoru
