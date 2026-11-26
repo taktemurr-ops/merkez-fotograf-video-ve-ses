@@ -1,8 +1,8 @@
-45 strumenti, quasi tutti offline sul dispositivo.
+48 strumenti, quasi tutti offline sul dispositivo.
 
-• Foto: Editor di foto, Collage, Ritaglia e ridimensiona, Comprimi foto, Filigrana, Immagini in PDF, Fotocamera con filtri, Rimuovi metadati foto, Trova foto duplicate, Editor di screenshot, Album nascosto
+• Foto: Editor di foto, Collage, Ritaglia e ridimensiona, Comprimi foto, Filigrana, Immagini in PDF, Fotocamera con filtri, Rimuovi metadati foto, Trova foto duplicate, Editor di screenshot, Album nascosto, Foto tessera e passaporto
 • Strumenti smart: Rimozione sfondo, Sottotitoli automatici, Colorizza foto, Migliora foto, Sfoca volti e targhe
 • Video: Taglia e unisci video, Crea GIF, Video slideshow, Comprimi video, Velocità video, Estrai audio dal video, Video time-lapse, Lettore video, Registratore dello schermo
-• Audio: Lettore musicale, Crea suonerie, Editor audio, Rumore bianco e suoni per dormire, Cambia voce, Registratore podcast, Amplificatore di volume, Riduzione rumore, Convertitore audio
+• Audio: Lettore musicale, Crea suonerie, Editor audio, Rumore bianco e suoni per dormire, Cambia voce, Registratore podcast, Amplificatore di volume, Riduzione rumore, Convertitore audio, Equalizzatore e potenziatore bassi, Lettore podcast e RSS
 • Fai musica: Drum pad, Pianoforte, Crea loop e beat, Sintetizzatore
 • Design e disegno: Crea meme, Crea sfondi, Editor pixel art, Disegno e pittura digitale, Crea logo, Inviti e biglietti, Poster e post social

@@ -1,5 +1,5 @@
 name: merkez_fotograf_video_ve_ses
-description: "Fotoğraf, Video ve Ses merkez uygulaması: 45 araç. Android, iOS ve Web."
+description: "Fotoğraf, Video ve Ses merkez uygulaması: 48 araç. Android, iOS ve Web."
 publish_to: none
 version: 1.0.0+1
 
@@ -18,7 +18,7 @@ dependencies:
   medya_motoru:
     git:
       url: https://github.com/taktemurr-ops/medya-motoru
-      ref: 0369c9ab5e69e3d47b9c92ae09ce684c086ae192
+      ref: 7d19eb87aa30039258fda5f3da3987fbcbe47027
   # Merkezdeki araçlar (her biri kendi deposunda)
   uyg_fotograf_duzenleyici:
     git:
@@ -200,6 +200,18 @@ dependencies:
     git:
       url: https://github.com/taktemurr-ops/uyg-ekran-kaydedici
       ref: b5af2810c94247859f71e915a17806da1b47745a
+  uyg_vesikalik_fotograf:
+    git:
+      url: https://github.com/taktemurr-ops/uyg-vesikalik-fotograf
+      ref: 5ea1ca2d83528ca5b4c8ca4143f612829007ed88
+  uyg_ekolayzir:
+    git:
+      url: https://github.com/taktemurr-ops/uyg-ekolayzir
+      ref: cd707fdd4014462476659d9ba226dc80140fc4ad
+  uyg_podcast_oynatici:
+    git:
+      url: https://github.com/taktemurr-ops/uyg-podcast-oynatici
+      ref: 001261b6035b99d5f9627bac19d90ca5fe3d225d
   flutter_localizations:
     sdk: flutter
   flutter_riverpod: ^2.6.1
@@ -217,7 +229,7 @@ dependency_overrides:
   medya_motoru:
     git:
       url: https://github.com/taktemurr-ops/medya-motoru
-      ref: c89b056cd31a0ab2dd736e1f947c7ddbb3d731f9
+      ref: 7d19eb87aa30039258fda5f3da3987fbcbe47027
 
 dev_dependencies:
   flutter_test:

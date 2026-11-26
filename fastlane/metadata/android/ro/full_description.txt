@@ -1,8 +1,8 @@
-45 de unelte, majoritatea offline pe dispozitiv.
+48 de unelte, majoritatea offline pe dispozitiv.
 
-• Foto: Editor foto, Colaj, Decupare și redimensionare, Comprimare foto, Filigran, Imagini în PDF, Cameră cu filtre, Ștergere metadate foto, Găsire poze duplicate, Editor capturi de ecran, Album ascuns
+• Foto: Editor foto, Colaj, Decupare și redimensionare, Comprimare foto, Filigran, Imagini în PDF, Cameră cu filtre, Ștergere metadate foto, Găsire poze duplicate, Editor capturi de ecran, Album ascuns, Poză pentru pașaport și buletin
 • Unelte inteligente: Eliminare fundal, Subtitrări automate, Colorare foto, Îmbunătățire foto, Estompare fețe și numere
 • Video: Taie și unește video, Creator GIF, Video slideshow, Comprimare video, Viteză video, Extrage audio din video, Video time-lapse, Player video, Înregistrator de ecran
-• Audio: Player muzical, Creator de tonuri, Editor audio, Zgomot alb și sunete de somn, Modificator de voce, Înregistrare podcast, Amplificator de volum, Reducere zgomot, Convertor audio
+• Audio: Player muzical, Creator de tonuri, Editor audio, Zgomot alb și sunete de somn, Modificator de voce, Înregistrare podcast, Amplificator de volum, Reducere zgomot, Convertor audio, Egalizator și amplificator de bas, Player de podcasturi și RSS
 • Fă muzică: Pad de tobe, Pian, Creator de bucle și ritmuri, Sintetizator
 • Design și desen: Creator de meme, Creator de imagini de fundal, Editor pixel art, Desen și pictură digitală, Designer de logo, Invitații și felicitări, Afișe și postări sociale

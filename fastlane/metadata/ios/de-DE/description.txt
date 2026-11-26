@@ -1,8 +1,8 @@
-45 Werkzeuge, meist offline auf deinem Gerät.
+48 Werkzeuge, meist offline auf deinem Gerät.
 
-• Foto: Fotoeditor, Collage, Zuschneiden und Skalieren, Fotos komprimieren, Wasserzeichen, Bilder zu PDF, Filterkamera, Foto-Metadaten entfernen, Doppelte Fotos finden, Screenshot-Editor, Verstecktes Album
+• Foto: Fotoeditor, Collage, Zuschneiden und Skalieren, Fotos komprimieren, Wasserzeichen, Bilder zu PDF, Filterkamera, Foto-Metadaten entfernen, Doppelte Fotos finden, Screenshot-Editor, Verstecktes Album, Passfoto und biometrisches Foto
 • Smarte Werkzeuge: Hintergrund entfernen, Automatische Untertitel, Fotos kolorieren, Foto verbessern, Gesichter und Kennzeichen verpixeln
 • Video: Video schneiden und zusammenfügen, GIF-Ersteller, Diashow-Video, Video komprimieren, Videogeschwindigkeit, Ton aus Video extrahieren, Zeitraffer-Video, Videoplayer, Bildschirmrekorder
-• Audio: Musikplayer, Klingelton-Ersteller, Audio-Editor, Weißes Rauschen und Schlafklänge, Stimmverzerrer, Podcast-Recorder, Lautstärke-Booster, Rauschunterdrückung, Audio-Konverter
+• Audio: Musikplayer, Klingelton-Ersteller, Audio-Editor, Weißes Rauschen und Schlafklänge, Stimmverzerrer, Podcast-Recorder, Lautstärke-Booster, Rauschunterdrückung, Audio-Konverter, Equalizer und Bass-Booster, Podcast- und RSS-Player
 • Musik machen: Drum-Pad, Klavier, Loop- und Beat-Maker, Synthesizer
 • Gestalten und Zeichnen: Meme-Generator, Hintergrundbild-Ersteller, Pixel-Art-Editor, Digital zeichnen und malen, Logo-Designer, Einladungen und Karten, Poster und Social-Media-Beiträge

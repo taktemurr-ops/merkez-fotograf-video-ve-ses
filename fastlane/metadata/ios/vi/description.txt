@@ -1,8 +1,8 @@
-45 công cụ, hầu hết chạy ngoại tuyến trên máy.
+48 công cụ, hầu hết chạy ngoại tuyến trên máy.
 
-• Ảnh: Chỉnh sửa ảnh, Ghép ảnh, Cắt và đổi cỡ, Nén ảnh, Hình mờ, Ảnh sang PDF, Máy ảnh bộ lọc, Xóa siêu dữ liệu ảnh, Tìm ảnh trùng, Sửa ảnh chụp màn hình, Album ẩn
+• Ảnh: Chỉnh sửa ảnh, Ghép ảnh, Cắt và đổi cỡ, Nén ảnh, Hình mờ, Ảnh sang PDF, Máy ảnh bộ lọc, Xóa siêu dữ liệu ảnh, Tìm ảnh trùng, Sửa ảnh chụp màn hình, Album ẩn, Ảnh thẻ và ảnh hộ chiếu
 • Công cụ thông minh: Xóa phông nền, Phụ đề tự động, Tô màu ảnh, Làm nét ảnh, Làm mờ mặt và biển số
 • Video: Cắt và ghép video, Tạo GIF, Video trình chiếu, Nén video, Tốc độ video, Tách âm thanh từ video, Video tua nhanh thời gian, Trình phát video, Ghi màn hình
-• Âm thanh: Trình phát nhạc, Tạo nhạc chuông, Chỉnh sửa âm thanh, Tiếng ồn trắng và âm ngủ, Đổi giọng, Ghi âm podcast, Tăng âm lượng, Giảm tiếng ồn, Chuyển đổi âm thanh
+• Âm thanh: Trình phát nhạc, Tạo nhạc chuông, Chỉnh sửa âm thanh, Tiếng ồn trắng và âm ngủ, Đổi giọng, Ghi âm podcast, Tăng âm lượng, Giảm tiếng ồn, Chuyển đổi âm thanh, Bộ chỉnh âm và tăng bass, Trình phát podcast và RSS
 • Làm nhạc: Bàn trống, Đàn piano, Tạo vòng lặp và nhịp, Bộ tổng hợp âm
 • Thiết kế và vẽ: Tạo meme, Tạo hình nền, Vẽ pixel art, Vẽ và tô màu số, Thiết kế logo, Thiệp mời và thiệp chúc, Áp phích và bài đăng mạng xã hội
