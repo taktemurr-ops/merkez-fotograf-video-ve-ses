@@ -1,6 +1,6 @@
 # Gizlilik Politikası · Privacy Policy — Fotoğraf, Video ve Ses / Photo, Video & Audio
 
-_Son güncelleme / Last updated: 2026-11-25_
+_Son güncelleme / Last updated: 2026-11-26_
 
 ## Türkçe
 - Araçlar çoğunlukla internet olmadan çalışır. Fotoğraf, video ve sesleriniz **yalnızca cihazınızda** işlenir; sunucuya yüklenmez.
@@ -35,5 +35,15 @@ _Son güncelleme / Last updated: 2026-11-25_
 - In-app purchases are processed by Google Play / App Store; we never see payment details.
 - Profile → "Delete all my data" removes everything stored on the device.
 - No gambling, games of chance or 18+ content. The meme and design tools contain no copyrighted templates or brand-like assets.
+
+## Ek: Veri akışı ve güvenlik / Addendum: data flows and security
+
+### Türkçe
+- **Yedekleme:** Android'in kendi yedeklemesi açıksa uygulama verileri (ilerleme, ayarlar, kayıtlar) Google hesabınızdaki şifreli cihaz yedeğine dahil olabilir; bunu cihaz ayarlarından kapatabilirsiniz.
+- **Gizli Albüm:** Dosyalar parolayla şifreli (PBKDF2 + AES-256-GCM) saklanır, hiçbir yedeğe alınmaz ve cihazdan çıkmaz; parola unutulursa kurtarılamaz. Albüm ekranında ekran görüntüsü ve ekran kaydı engellenir.
+
+### English
+- **Backup:** If Android's own backup is on, app data (progress, settings, records) may be included in the encrypted device backup in your Google account; you can turn this off in the device settings.
+- **Hidden Album:** Files are stored encrypted with your password (PBKDF2 + AES-256-GCM), are never backed up and never leave the device; they cannot be recovered if the password is forgotten. Screenshots and screen recording are blocked in the album.
 
 İletişim / Contact: (yayıncı e-posta adresi / publisher e-mail)
