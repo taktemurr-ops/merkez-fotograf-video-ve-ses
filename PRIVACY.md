@@ -13,10 +13,10 @@ _Son güncelleme / Last updated: 2026-11-26_
 - **İsteğe bağlı indirmeler:** Otomatik altyazı modeli (Hugging Face, whisper.cpp deposu) ve deneysel renklendirme modeli (GitHub) yalnızca siz düğmeye bastığınızda bir kez indirilir; bu isteklerde kişisel veri gönderilmez.
 - **Ekran kaydedici (yalnız Android):** Kayıt, sistemin "ekran kaydı/yayın" onayını siz verdiğinizde başlar; kayıt sürerken bildirimde görünür. Mikrofon yalnız siz "mikrofon sesi" seçeneğini açarsanız kullanılır. Video cihazınıza kaydedilir, hiçbir yere gönderilmez.
 - **Gizli albüm:** Seçtiğiniz fotoğraf ve videolar, parolanızdan türetilen anahtarla (AES-256-GCM) şifrelenip uygulamanın kendi alanında saklanır. Parola hiçbir yere gönderilmez ve saklanmaz; unutulursa içerik açılamaz (arka kapı yoktur).
+- **Fotoğraf bilgisi silici**, paylaşmadan önce konum ve cihaz bilgisini fotoğraftan kaldırmanıza yardım eder.
 - **Vesikalık fotoğraf:** Yüz bulma ve arka plan değiştirme cihazınızda çalışır; fotoğraf gönderilmez. Ölçüler resmî kaynaklardan alınmıştır; kabul garantisi yoktur.
 - **Podcast oynatıcı:** Yalnızca sizin eklediğiniz RSS/OPML adreslerine bağlanır; bu sunucular (yayıncılar) IP adresinizi görebilir. İndirilen bölümler uygulama klasöründe kalır. Katalog ya da öneri yoktur.
 - **Ekolayzır:** Ses cihazda işlenir. Android'de "Diğer oynatıcılara uygula" açıksa, oturumunu duyuran oynatıcılara sistem eşitleyicisi eklenir; hiçbir ses kaydedilmez.
-- **Fotoğraf bilgisi silici**, paylaşmadan önce konum ve cihaz bilgisini fotoğraftan kaldırmanıza yardım eder.
 - Reklamlar Google AdMob tarafından gösterilir. İlk açılışta bir kez seçim yaparsınız ("Kabul et" / "Yalnızca gerekli"); Avrupa gibi gereken bölgelerde Google'ın rıza formu ayrıca gösterilir. Seçiminizi Profil → Reklam ayarlarından değiştirebilirsiniz. Reklam bir işin ortasında asla gösterilmez.
 - Uygulama içi satın almalar Google Play / App Store üzerinden yapılır; ödeme bilgilerinizi görmeyiz.
 - Profil → "Tüm verilerimi sil" ile cihazdaki tüm verileri silebilirsiniz.
@@ -33,10 +33,10 @@ _Son güncelleme / Last updated: 2026-11-26_
 - **Optional downloads:** the subtitle model (Hugging Face, whisper.cpp repository) and the experimental colourisation model (GitHub) are downloaded once, only when you tap the button; no personal data is sent.
 - **Screen recorder (Android only):** recording starts only after you approve the system screen-capture prompt and is shown in a notification while it runs. The microphone is used only if you turn on "microphone audio". The video is saved on your device and sent nowhere.
 - **Hidden album:** the photos and videos you choose are encrypted (AES-256-GCM) with a key derived from your password and kept in the app's own storage. The password is never sent or stored; if forgotten, the content cannot be opened (there is no back door).
+- The **photo metadata remover** helps you strip location and device data before sharing.
 - **ID photo:** face detection and background replacement run on your device; photos are not sent anywhere. Sizes come from official sources; acceptance is not guaranteed.
 - **Podcast player:** connects only to the RSS/OPML addresses you add; those servers (publishers) can see your IP address. Downloaded episodes stay in the app folder. There is no catalog or recommendation.
 - **Equalizer:** audio is processed on the device. On Android, with "Apply to other players" on, a system equalizer is attached to players that announce their audio session; nothing is recorded.
-- The **photo metadata remover** helps you strip location and device data before sharing.
 - Ads are served by Google AdMob. On first launch you choose once ("Accept" / "Essential only"); where required, Google's consent form is also shown. Change it any time in Profile → Ad settings. Ads never interrupt a task.
 - In-app purchases are processed by Google Play / App Store; we never see payment details.
 - Profile → "Delete all my data" removes everything stored on the device.
