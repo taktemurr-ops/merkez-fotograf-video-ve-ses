@@ -13,12 +13,12 @@ dependencies:
   studio_core:
     git:
       url: https://github.com/taktemurr-ops/studio-core
-      ref: a2d05c02f4fa6a3fa8fe9a28a1d19578c0d9b1ec
+      ref: a80a018ac4a9c5ff6b71b132e409592407ce10a3
   # Araçların ortak motoru (aynı zamanda yerel eklenti: Media3 / AVFoundation; ONNX Runtime (Android) / Core ML (iOS))
   medya_motoru:
     git:
       url: https://github.com/taktemurr-ops/medya-motoru
-      ref: c9199c4cddffe1606c13c1042f4e8e5abd85dcb7
+      ref: fbef20b669a9b713649de7f87a1c37f7bf73f84d
   # Merkezdeki araçlar (her biri kendi deposunda)
   uyg_fotograf_duzenleyici:
     git:
@@ -213,11 +213,11 @@ dependency_overrides:
   studio_core:
     git:
       url: https://github.com/taktemurr-ops/studio-core
-      ref: a2d05c02f4fa6a3fa8fe9a28a1d19578c0d9b1ec
+      ref: a80a018ac4a9c5ff6b71b132e409592407ce10a3
   medya_motoru:
     git:
       url: https://github.com/taktemurr-ops/medya-motoru
-      ref: c9199c4cddffe1606c13c1042f4e8e5abd85dcb7
+      ref: fbef20b669a9b713649de7f87a1c37f7bf73f84d
 
 dev_dependencies:
   flutter_test:
