@@ -53,3 +53,9 @@ _Son güncelleme / Last updated: 2026-11-26_
 - **Hidden Album:** Files are stored encrypted with your password (PBKDF2 + AES-256-GCM), are never backed up and never leave the device; they cannot be recovered if the password is forgotten. Screenshots and screen recording are blocked in the album.
 
 İletişim / Contact: (yayıncı e-posta adresi / publisher e-mail)
+
+## Diğer Android mağazaları / Other Android stores
+
+Galaxy Store, Amazon Appstore ve ONE store sürümlerinde uygulama içi satın almalar o mağazanın kendi ödeme sistemiyle (Samsung In-App Purchase, Amazon In-App Purchasing, ONE store IAP) yapılır; ödeme bilgileriniz bize ulaşmaz. Amazon sürümünde reklam yoktur. Xiaomi, OPPO, vivo ve HONOR sürümlerinde uygulama içi satın alma yoktur; reklamlar Google AdMob ile gösterilir (Google Play sürümüyle aynı kurallar).
+
+In the Galaxy Store, Amazon Appstore and ONE store editions, in-app purchases go through that store's own billing (Samsung In-App Purchase, Amazon In-App Purchasing, ONE store IAP); we never receive your payment details. The Amazon edition shows no ads. The Xiaomi, OPPO, vivo and HONOR editions have no in-app purchases; ads are served by Google AdMob under the same rules as the Google Play edition.
