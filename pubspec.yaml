@@ -18,7 +18,7 @@ dependencies:
   medya_motoru:
     git:
       url: https://github.com/taktemurr-ops/medya-motoru
-      ref: 7d19eb87aa30039258fda5f3da3987fbcbe47027
+      ref: 97505ff88e7613a87db95dd718e63cf41a1bcb11
   # Merkezdeki araçlar (her biri kendi deposunda)
   uyg_fotograf_duzenleyici:
     git:
@@ -229,7 +229,7 @@ dependency_overrides:
   medya_motoru:
     git:
       url: https://github.com/taktemurr-ops/medya-motoru
-      ref: 7d19eb87aa30039258fda5f3da3987fbcbe47027
+      ref: 97505ff88e7613a87db95dd718e63cf41a1bcb11
 
 dev_dependencies:
   flutter_test:
